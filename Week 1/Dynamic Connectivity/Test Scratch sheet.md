@@ -1,4 +1,3 @@
-No answers (because screw cheating)
 
 length = 9
 
@@ -17,7 +16,7 @@ Screwup
 rule change first entry to second entrys
 
 6 1 6 5 1 5 6 1 8 3
-
+0 1 0 5 1 5 0 1 8 5
 0   2 3 4 5     8 9 
           7       x
 x=1,6
@@ -54,6 +53,9 @@ Recall: when joining two trees of equal size, our weighted quick union conventio
 make the root of the second tree point to the root of the first tree. Also, our weighted
 quick union algorithm uses union by size (number of nodes), not union by height.
 
+8 9 9 9 3 8 9 5 9 9
+
+
 
 (seed = 947192)
 Give the id[] array that results from the following sequence of 6 union
@@ -63,3 +65,5 @@ operations on a set of 10 items using the quick-find algorithm.
 
 Recall: our quick-find convention for the union operation p-q is to change id[p]
 (and perhaps some other entries) but not id[q].
+
+0 1 0 5 1 5 0 1 8 5
